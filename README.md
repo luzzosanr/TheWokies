@@ -82,6 +82,6 @@ npm start
 
 ## Livrables
 
-1. Un lien vers votre repository GitHub contenant le code de votre projet.
+1. Un lien vers votre repository Git contenant le code de votre projet.
 
 Nous vous souhaitons bonne chance pour cet exercice et sommes impatients de voir votre implémentation !

@@ -80,6 +80,11 @@ Pour lancer l'application en mode développement, utilisez la commande suivante 
 npm start
 ```
 
+## Fonctionnalités supplémentaires
+
+Si vous avez le temps vous pouvez ajouter des fonctionnalités supplémentaires à votre guise, comme :
+- Système d'équipe : Chaque joueur peut être assigné à une équipe (de 0 à 5 joueurs)
+
 ## Livrables
 
 1. Un lien vers votre repository Git contenant le code de votre projet.

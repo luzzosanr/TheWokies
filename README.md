@@ -1,7 +1,5 @@
-# Exercise Technique - The Wokies
+# Exercice Technique - The Wokies
 Cet exercice a pour but d'évaluer vos compétences en développement avec React, Typescript, Supabase, Ant Design, et Tailwind CSS, en reproduisant la stack utilisée par The Wokies.
-
-**Durée : 1h-2h**
 
 ## Prérequis
 
@@ -35,7 +33,7 @@ Le projet est organisé comme suit :
 
 ## Styles et Bibliothèques UI
 
-- **Ant Design** et **Tailwind CSS** sont inclus pour la structuration et le style de l'application. Vous êtes libre d'utiliser d'autres bibliothèques pour le style, mais React doit rester la librarie principal.
+- **Ant Design** et **Tailwind CSS** sont inclus pour la structuration et le style de l'application. Vous êtes libre d'utiliser d'autres bibliothèques pour le style, mais React doit rester la librairie principal.
 
 ## Instructions Supabase
 
@@ -70,7 +68,7 @@ Vous devez créer trois vues principales pour cette application :
 
 - **React** doit être utilisé pour la structure de l'application.
 - **Supabase** doit être utilisé pour les opérations CRUD (Create, Read, Update, Delete). Pas besoin de gérer l'authentification, ni les sécurités, ni les permissions.
-- Respectez le sujet du test, **mais vous pouvez prendre des libertés dans l'implémentation et la structure du projet** si cela améliore l'UI/UX ou facilite l'implémentation technique. Par exemple vous pouvez très bien fusionner les pages Home et Dashboard, si ça se justife en terme UI/UX ou bien d'implémentation technique.
+- Respectez le sujet du test, **mais vous pouvez prendre des libertés dans l'implémentation et la structure du projet** si cela améliore l'UI/UX ou facilite l'implémentation technique. Par exemple vous pouvez très bien fusionner les pages Home et Dashboard, si ça se justifie en terme UI/UX ou bien d'implémentation technique.
 - Vous n'êtes pas UI/UX designer, un design simple et fonctionnel est suffisant. Un style CSS minimal est attendu, mais qui est déjà fourni par Tailwind CSS et Ant-Design.
 
 ## Lancer l'Application

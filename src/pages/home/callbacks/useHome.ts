@@ -22,13 +22,8 @@ export default function useHome() {
         fetchPlayers();
     }, [])
 
-    const addPlayer = async () => {
-        notification.error({message: "Not implemented"});
-    }
-
     return {
         players,
-        loading,
-        addPlayer
+        loading
     }
 }

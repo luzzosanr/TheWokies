@@ -1,3 +1,15 @@
+# Réalisation de l'exercice
+
+## Fonctionalités principales
+
+L'index du site redirige vers la page de visualisation des invités (Dashboard) et comprend un bouton pour en ajouter (Home). Les liens qui dans le cas réel devraient être envoyés aux invités sont aussi disponibles. Ces liens redirigent vers une page (Invite) permettant aux invités d'accepter ou de refuser l'invitation ou d'afficher.
+
+## BDD
+
+Un fichier supabase.ts comprenant les clefs API sera partagé séparément (au lieu de l'utilisation d'un .env). \
+*Note :
+Le champs d'email, à l'ajout d'un invité, a une contrainte regex gérée directement par supabase.*
+
 # Exercice Technique - The Wokies
 Cet exercice a pour but d'évaluer vos compétences en développement avec React, Typescript, Supabase, Ant Design, et Tailwind CSS, en reproduisant la stack utilisée par The Wokies.
 

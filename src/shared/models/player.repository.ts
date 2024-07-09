@@ -70,3 +70,20 @@ export async function addPlayer(player: Player): Promise<Player | undefined> {
         return undefined;
     }
 }
+
+export async function changeTeam(playerId: string, team: number) {
+    try {
+        const request = await supabase
+            .from("player")
+            .update({team})
+            .eq("id", playerId);
+
+        if (request.error) {
+            console.error(request.error);
+            throw new Error("Error while changing team");
+        }
+    } catch (e) {
+        console.error(e);
+        throw new Error("Error while changing team");
+    }
+}

@@ -10,6 +10,11 @@ Un fichier supabase.ts comprenant les clefs API sera partagé séparément (au l
 *Note :
 Le champs d'email, à l'ajout d'un invité, a une contrainte regex gérée directement par supabase.*
 
+## Fonctionalité des équipes
+
+L'ajout d'équipes a été fait de sorte à ce que seulement les invités ayant répondu présent puissent être assignés (pour permettre d'éviter des situations d'équipes vides en gardant un code simple). \
+Au niveau de l'affichage, les équipes assignables sont affichées (équipes non complètes et première équipe vide), et 0 est affiché quand appartenant à aucune équipe (comme en BDD d'ailleurs).
+
 # Exercice Technique - The Wokies
 Cet exercice a pour but d'évaluer vos compétences en développement avec React, Typescript, Supabase, Ant Design, et Tailwind CSS, en reproduisant la stack utilisée par The Wokies.
 

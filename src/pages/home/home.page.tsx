@@ -1,4 +1,4 @@
-import {Button, Flex} from "antd";
+import {Flex} from "antd";
 import {BannerHome} from "./components/banner.home";
 import {FileAddOutlined} from "@ant-design/icons";
 import useHome from "./callbacks/useHome";
@@ -15,7 +15,7 @@ export function HomePage() {
         <Flex vertical>
             <BannerHome icon={<FileAddOutlined />} title={"Dashboard"}/>
             <Flex justify={"space-between"} align={"center"} className={"w-full mt-4 pl-4 pr-4 box-border"}>
-                <Dashboard players={home.players}/>
+                <Dashboard players={home.players} availableTeams={home.availableTeams}/>
             </Flex>
         </Flex>
     )

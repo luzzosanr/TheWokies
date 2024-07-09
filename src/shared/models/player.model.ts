@@ -5,4 +5,5 @@ export interface Player {
     name: string
     mail: string
     state: PlayerState
+    team: number
 }
